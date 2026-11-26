@@ -1,7 +1,7 @@
+import mysql.connector
+
 from db import get_connection
 from validation import validate_customer_id
-
-import mysql.connector
 
 
 def get_all_customers():

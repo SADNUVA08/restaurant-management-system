@@ -1,11 +1,9 @@
 import logging
+
 import mysql.connector
 import streamlit as st
 
-from customer_operations import (
-    get_all_customers,
-    delete_customer
-)
+from customer_operations import delete_customer, get_all_customers
 
 logger = logging.getLogger(__name__)
 

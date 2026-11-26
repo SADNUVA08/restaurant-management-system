@@ -1,8 +1,6 @@
 import pytest
 
-from validation import (
-    validate_customer_id
-)
+from validation import validate_customer_id
 
 
 def test_valid_customer_id():
